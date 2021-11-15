@@ -18,7 +18,7 @@ header {
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    padding: 30px 10%;
+    padding: 20px 10%;
     background-color: rgba(1, 98, 122, 0.4);
 }
 
@@ -34,12 +34,19 @@ header {
 
 .nav__links{
     list-style-type: none;
-    ;
+}
+
+nav{
+    background: none;
+}
+ul{
+    background: none;
 }
 
 .nav__links li{
     display: inline-block;
     padding: 0px 20px;
+    letter-spacing: 2px;
 }
 
 .nav__links li a{
@@ -58,6 +65,7 @@ button{
     cursor: pointer;
     transition: all 0.3s ease 0s;
     margin-left: 70px;
+    letter-spacing: 1px;
 }
 button:hover{
     background-color:rgba(0,136,169,0.6);
