@@ -95,6 +95,7 @@ button:hover{
 }
 
 .basic-grid{
+    margin-top: 20px;
     padding: 10px;
     display:grid;
     gap: 0.5rem;
