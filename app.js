@@ -5,9 +5,11 @@ var origimg
 
 previews.forEach(previews =>{
     previews.addEventListener('click', () => {
+        
         var origimg = previews.getAttribute("orig");
         modal.getElementsByTagName("img")[0].setAttribute("src", origimg);
         modal.classList.add("open");
+        original.classList.add("open");
     })
 })
 
